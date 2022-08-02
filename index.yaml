@@ -3,12 +3,12 @@ entries:
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-02T07:12:26.23916585Z"
+    created: "2022-08-02T12:20:37.46414797Z"
     description: A Helm chart for Kubernetes
-    digest: f7344280ad7892334ffbc57d91abc64811bba6aaa849a77cc4550871e9daca8a
+    digest: 75411482557702b2c7b5a2c8f575b0b94604eb75a88b494c02ad877ad289a4d3
     name: test-hello-openshift-nokia
     type: application
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2022-08-02T07:12:26.238456659Z"
+generated: "2022-08-02T12:20:37.461993866Z"
