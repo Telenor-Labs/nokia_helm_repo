@@ -1,9 +1,17 @@
 apiVersion: v1
 entries:
+  stratum:
+  - apiVersion: v1
+    created: "2022-11-29T08:04:01.341366813Z"
+    digest: a367f51e4951877fd70870a5a0345c7645c3a7ae30a71d79e8e2ef79306cfecd
+    name: stratum
+    urls:
+    - udrHelm.tgz
+    version: 3.2.9
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-11-23T08:11:24.642452441Z"
+    created: "2022-11-29T08:04:01.339719524Z"
     description: A Helm chart for Kubernetes
     digest: 3d25cff3431b63a6d39c4bd322715cb8f769b6dcda7e1305bb5c5f6d64310b81
     name: test-hello-openshift-nokia
@@ -13,7 +21,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-23T08:11:24.641405517Z"
+    created: "2022-11-29T08:04:01.339254027Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -21,4 +29,4 @@ entries:
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2022-11-23T08:11:24.64022319Z"
+generated: "2022-11-29T08:04:01.338540432Z"
