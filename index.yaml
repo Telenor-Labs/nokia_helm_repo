@@ -4,6 +4,50 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: jenkins
+          image: jenkins/jenkins:2.375.1-jdk11
+        - name: k8s-sidecar
+          image: kiwigrid/k8s-sidecar:1.15.0
+        - name: inbound-agent
+          image: jenkins/inbound-agent:4.11.2-4
+        - name: backup
+          image: maorfr/kube-tasks:0.2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/jenkinsci/helm-charts/tree/main/charts/jenkins
+        - name: Jenkins
+          url: https://www.jenkins.io/
+    apiVersion: v2
+    appVersion: 2.375.1
+    created: "2023-01-03T10:17:32.533579389Z"
+    description: Jenkins - Build great things at any scale! The leading open source
+      automation server, Jenkins provides hundreds of plugins to support building,
+      deploying and automating any project.
+    digest: 4ec474da4bc6ee1c52517089a1e5787a3b291b7fc4ffe10c26d42379afe058d5
+    home: https://jenkins.io/
+    icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
+    maintainers:
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    - email: wmcdona89@gmail.com
+      name: wmcdona89
+    - email: timjacomb1@gmail.com
+      name: timja
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-inbound-agent
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-4.2.18.tgz
+    version: 4.2.18
+  - annotations:
+      artifacthub.io/images: |
+        - name: jenkins
           image: jenkins/jenkins:2.346.1-jdk11
         - name: k8s-sidecar
           image: kiwigrid/k8s-sidecar:1.15.0
@@ -18,7 +62,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.1
-    created: "2023-01-03T06:03:53.924560569Z"
+    created: "2023-01-03T10:17:32.528300286Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -45,10 +89,31 @@ entries:
     urls:
     - jenkins-4.1.11.tgz
     version: 4.1.11
+  mysql:
+  - apiVersion: v1
+    appVersion: 5.7.30
+    created: "2023-01-03T10:17:32.535774691Z"
+    deprecated: true
+    description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
+      relational database system.
+    digest: 35f232f0b4df50e85c6d65cbe7e5291b8ac8fab2c5a6afa8a0b816c7ce594390
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - mysql-1.6.9.tgz
+    version: 1.6.9
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2023-01-03T06:03:53.925505987Z"
+    created: "2023-01-03T10:17:32.537110492Z"
     description: A Helm chart for Kubernetes
     digest: 3d25cff3431b63a6d39c4bd322715cb8f769b6dcda7e1305bb5c5f6d64310b81
     name: test-hello-openshift-nokia
@@ -58,7 +123,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-03T06:03:53.925055278Z"
+    created: "2023-01-03T10:17:32.536483791Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -66,4 +131,4 @@ entries:
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2023-01-03T06:03:53.918053641Z"
+generated: "2023-01-03T10:17:32.521182282Z"
