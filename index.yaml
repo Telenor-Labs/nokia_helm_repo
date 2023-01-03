@@ -1,17 +1,54 @@
 apiVersion: v1
 entries:
-  stratum:
-  - apiVersion: v1
-    created: "2022-11-29T08:04:01.341366813Z"
-    digest: a367f51e4951877fd70870a5a0345c7645c3a7ae30a71d79e8e2ef79306cfecd
-    name: stratum
+  jenkins:
+  - annotations:
+      artifacthub.io/images: |
+        - name: jenkins
+          image: jenkins/jenkins:2.346.1-jdk11
+        - name: k8s-sidecar
+          image: kiwigrid/k8s-sidecar:1.15.0
+        - name: inbound-agent
+          image: jenkins/inbound-agent:4.11.2-4
+        - name: backup
+          image: maorfr/kube-tasks:0.2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/jenkinsci/helm-charts/tree/main/charts/jenkins
+        - name: Jenkins
+          url: https://www.jenkins.io/
+    apiVersion: v2
+    appVersion: 2.346.1
+    created: "2023-01-03T06:03:53.924560569Z"
+    description: Jenkins - Build great things at any scale! The leading open source
+      automation server, Jenkins provides hundreds of plugins to support building,
+      deploying and automating any project.
+    digest: 2af1caf4bed5a5478c3a385ac87721a61ef1c0819cba132dd66939b51a16d0b8
+    home: https://jenkins.io/
+    icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
+    maintainers:
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    - email: wmcdona89@gmail.com
+      name: wmcdona89
+    - email: timjacomb1@gmail.com
+      name: timja
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-inbound-agent
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
     urls:
-    - udrHelm.tgz
-    version: 3.2.9
+    - jenkins-4.1.11.tgz
+    version: 4.1.11
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-11-29T08:04:01.339719524Z"
+    created: "2023-01-03T06:03:53.925505987Z"
     description: A Helm chart for Kubernetes
     digest: 3d25cff3431b63a6d39c4bd322715cb8f769b6dcda7e1305bb5c5f6d64310b81
     name: test-hello-openshift-nokia
@@ -21,7 +58,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-29T08:04:01.339254027Z"
+    created: "2023-01-03T06:03:53.925055278Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -29,4 +66,4 @@ entries:
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2022-11-29T08:04:01.338540432Z"
+generated: "2023-01-03T06:03:53.918053641Z"
