@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  ditek-aas:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-01-06T11:10:41.896108566Z"
+    description: A Helm chart for Kubernetes
+    digest: 8ac35fd8adf8bc0328aed8ce7a8be8ade3918c639d7f3fcc7de663d816032a4e
+    name: ditek-aas
+    type: application
+    urls:
+    - ditek-aas-1.0.0.tgz
+    version: 1.0.0
   jenkins:
   - annotations:
       artifacthub.io/images: |
@@ -18,7 +29,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.375.1
-    created: "2023-01-03T10:17:32.533579389Z"
+    created: "2023-01-06T11:10:41.906404872Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -62,7 +73,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.1
-    created: "2023-01-03T10:17:32.528300286Z"
+    created: "2023-01-06T11:10:41.901898125Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -92,7 +103,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2023-01-03T10:17:32.535774691Z"
+    created: "2023-01-06T11:10:41.907769386Z"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -113,7 +124,7 @@ entries:
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2023-01-03T10:17:32.537110492Z"
+    created: "2023-01-06T11:10:41.910606115Z"
     description: A Helm chart for Kubernetes
     digest: 3d25cff3431b63a6d39c4bd322715cb8f769b6dcda7e1305bb5c5f6d64310b81
     name: test-hello-openshift-nokia
@@ -123,7 +134,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-03T10:17:32.536483791Z"
+    created: "2023-01-06T11:10:41.909649505Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -131,4 +142,4 @@ entries:
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2023-01-03T10:17:32.521182282Z"
+generated: "2023-01-06T11:10:41.894972154Z"
