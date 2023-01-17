@@ -3,7 +3,7 @@ entries:
   ditek-aas:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-17T09:40:09.588440366Z"
+    created: "2023-01-17T11:06:19.251850406Z"
     description: A Helm chart for Kubernetes
     digest: 8ac35fd8adf8bc0328aed8ce7a8be8ade3918c639d7f3fcc7de663d816032a4e
     name: ditek-aas
@@ -29,7 +29,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.375.1
-    created: "2023-01-17T09:40:09.599007164Z"
+    created: "2023-01-17T11:06:19.261357731Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -73,7 +73,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.1
-    created: "2023-01-17T09:40:09.594386765Z"
+    created: "2023-01-17T11:06:19.257019274Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -100,10 +100,21 @@ entries:
     urls:
     - jenkins-4.1.11.tgz
     version: 4.1.11
+  myfirstchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-17T11:06:19.261827837Z"
+    description: A Helm chart for Kubernetes
+    digest: fba9ff64f03adf3e1e718ff3447922bc1cc37dd7fa30e4e742c32c72f7286944
+    name: myfirstchart
+    type: application
+    urls:
+    - myfirstchart-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2023-01-17T09:40:09.600111164Z"
+    created: "2023-01-17T11:06:19.262878551Z"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -123,18 +134,8 @@ entries:
     version: 1.6.9
   test-hello-openshift-nokia:
   - apiVersion: v2
-    appVersion: 1.16.1
-    created: "2023-01-17T09:40:09.601649164Z"
-    description: A Helm chart for Kubernetes
-    digest: 3d25cff3431b63a6d39c4bd322715cb8f769b6dcda7e1305bb5c5f6d64310b81
-    name: test-hello-openshift-nokia
-    type: application
-    urls:
-    - test-hello-openshift-nokia_0_1_1.tgz
-    version: 0.1.1
-  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-17T09:40:09.601120464Z"
+    created: "2023-01-17T11:06:19.263825764Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -145,7 +146,7 @@ entries:
   yara-rsca:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-17T09:40:09.600617564Z"
+    created: "2023-01-17T11:06:19.263338857Z"
     description: A Helm chart for Kubernetes
     digest: 909294284d6aedd84d80a559b3364c2d7044b3a1425ebe425a5fb89249e6540a
     name: yara-rsca
@@ -153,4 +154,4 @@ entries:
     urls:
     - rsca_helm_depl.tgz
     version: 1.0.0
-generated: "2023-01-17T09:40:09.587715666Z"
+generated: "2023-01-17T11:06:19.251065196Z"
