@@ -18,7 +18,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.375.1
-    created: "2023-02-08T04:51:08.438232442Z"
+    created: "2024-01-15T11:23:52.165654251Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -62,7 +62,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.1
-    created: "2023-02-08T04:51:08.433627707Z"
+    created: "2024-01-15T11:23:52.161948101Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -92,7 +92,7 @@ entries:
   myfirstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-08T04:51:08.438682136Z"
+    created: "2024-01-15T11:23:52.165973518Z"
     description: A Helm chart for Kubernetes
     digest: fba9ff64f03adf3e1e718ff3447922bc1cc37dd7fa30e4e742c32c72f7286944
     name: myfirstchart
@@ -103,7 +103,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2023-02-08T04:51:08.439743821Z"
+    created: "2024-01-15T11:23:52.166698144Z"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -124,7 +124,7 @@ entries:
   test-hello-openshift-nokia:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-08T04:51:08.440214214Z"
+    created: "2024-01-15T11:23:52.167010177Z"
     description: A Helm chart for Kubernetes
     digest: 47e310a2498c915c7e6cd1774d79d6edbbcd9a88e4c51ba2baafa7cce3274ae4
     name: test-hello-openshift-nokia
@@ -132,4 +132,15 @@ entries:
     urls:
     - test-hello-openshift-nokia.tgz
     version: 0.1.0
-generated: "2023-02-08T04:51:08.427501994Z"
+  test-oke:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-15T11:23:52.167325517Z"
+    description: A Helm chart for Kubernetes
+    digest: c51fa2234ed7c9237f0d3390a3146cfba8c0a3e12f72f666112768ef594c7323
+    name: test-oke
+    type: application
+    urls:
+    - test-oke-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-15T11:23:52.15869221Z"
